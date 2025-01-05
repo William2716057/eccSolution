@@ -124,8 +124,7 @@ def main():
         k = int(input(), 16)  
         result = scalar_multiply(k, G)  # PScalar multiplication
         print(hex(result[0]))  #X coordinate in hex format
-        print(k)
-        print(n)
+
 # Use main function to execute
 if __name__ == "__main__":
     main()
